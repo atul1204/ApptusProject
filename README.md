@@ -1,2 +1,2 @@
 
-Please refer the ReadMeFirst File placed at: ApptusProject\ApptusAutomationProject
+Please refer the ReadMeFirst.docx File placed at: ApptusProject\ApptusAutomationProject
