@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87329" started-at="2020-08-27T14:26:30Z" finished-at="2020-08-27T14:27:58Z">
+    <groups>
+      <group name="APITest">
+        <method signature="WeatherDataVerificationTestAPI.test_Delete_Invalid()[pri:5, instance:com.apptus.testcases.WeatherDataVerificationTestAPI@3febb011]" name="test_Delete_Invalid" class="com.apptus.testcases.WeatherDataVerificationTestAPI"/>
+        <method signature="WeatherDataVerificationTestAPI.test_Delete_Valid()[pri:4, instance:com.apptus.testcases.WeatherDataVerificationTestAPI@3febb011]" name="test_Delete_Valid" class="com.apptus.testcases.WeatherDataVerificationTestAPI"/>
+        <method signature="WeatherDataVerificationTestAPI.test_Get_Valid()[pri:3, instance:com.apptus.testcases.WeatherDataVerificationTestAPI@3febb011]" name="test_Get_Valid" class="com.apptus.testcases.WeatherDataVerificationTestAPI"/>
+        <method signature="WeatherDataVerificationTestAPI.test_Post_Invalid()[pri:1, instance:com.apptus.testcases.WeatherDataVerificationTestAPI@3febb011]" name="test_Post_Invalid" class="com.apptus.testcases.WeatherDataVerificationTestAPI"/>
+        <method signature="WeatherDataVerificationTestAPI.test_Post_Valid()[pri:2, instance:com.apptus.testcases.WeatherDataVerificationTestAPI@3febb011]" name="test_Post_Valid" class="com.apptus.testcases.WeatherDataVerificationTestAPI"/>
+      </group> <!-- APITest -->
+      <group name="UITest">
+        <method signature="CatalogueDetailsVerificationTest.assertCatalogueDetails()[pri:1, instance:com.apptus.testcases.CatalogueDetailsVerificationTest@74fe5c40]" name="assertCatalogueDetails" class="com.apptus.testcases.CatalogueDetailsVerificationTest"/>
+      </group> <!-- UITest -->
+    </groups>
+    <test name="Test" duration-ms="87329" started-at="2020-08-27T14:26:30Z" finished-at="2020-08-27T14:27:58Z">
+      <class name="com.apptus.testcases.CatalogueDetailsVerificationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apptus.testcases.CatalogueDetailsVerificationTest@74fe5c40]" name="setUp" is-config="true" duration-ms="22571" started-at="2020-08-27T19:56:30Z" finished-at="2020-08-27T19:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="assertCatalogueDetails()[pri:1, instance:com.apptus.testcases.CatalogueDetailsVerificationTest@74fe5c40]" name="assertCatalogueDetails" duration-ms="26851" started-at="2020-08-27T19:56:53Z" finished-at="2020-08-27T19:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertCatalogueDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apptus.testcases.CatalogueDetailsVerificationTest@74fe5c40]" name="tearDown" is-config="true" duration-ms="1314" started-at="2020-08-27T19:57:20Z" finished-at="2020-08-27T19:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.apptus.testcases.CatalogueDetailsVerificationTest -->
+      <class name="com.apptus.testcases.WeatherDataVerificationTestAPI">
+        <test-method status="PASS" signature="test_Post_Invalid()[pri:1, instance:com.apptus.testcases.WeatherDataVerificationTestAPI@3febb011]" name="test_Post_Invalid" duration-ms="5377" started-at="2020-08-27T19:57:22Z" finished-at="2020-08-27T19:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Post_Invalid -->
+        <test-method status="PASS" signature="test_Post_Valid()[pri:2, instance:com.apptus.testcases.WeatherDataVerificationTestAPI@3febb011]" name="test_Post_Valid" duration-ms="5597" started-at="2020-08-27T19:57:27Z" finished-at="2020-08-27T19:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Post_Valid -->
+        <test-method status="PASS" signature="test_Get_Valid()[pri:3, instance:com.apptus.testcases.WeatherDataVerificationTestAPI@3febb011]" name="test_Get_Valid" duration-ms="3351" started-at="2020-08-27T19:57:33Z" finished-at="2020-08-27T19:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Get_Valid -->
+        <test-method status="PASS" signature="test_Delete_Valid()[pri:4, instance:com.apptus.testcases.WeatherDataVerificationTestAPI@3febb011]" name="test_Delete_Valid" duration-ms="13934" started-at="2020-08-27T19:57:36Z" finished-at="2020-08-27T19:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Delete_Valid -->
+        <test-method status="PASS" signature="test_Delete_Invalid()[pri:5, instance:com.apptus.testcases.WeatherDataVerificationTestAPI@3febb011]" name="test_Delete_Invalid" duration-ms="7688" started-at="2020-08-27T19:57:50Z" finished-at="2020-08-27T19:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Delete_Invalid -->
+      </class> <!-- com.apptus.testcases.WeatherDataVerificationTestAPI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
